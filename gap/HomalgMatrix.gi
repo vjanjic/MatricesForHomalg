@@ -50,11 +50,11 @@ BindGlobal( "TheFamilyOfHomalgMatrices",
 # two new types:
 BindGlobal( "TheTypeInternalMatrixHull",
         NewType( TheFamilyOfInternalMatrixHulls,
-                IshomalgInternalMatrixHullRep ) );
+                IshomalgInternalMatrixHullRep and IsNonAtomicComponentObjectRep) );
 
 BindGlobal( "TheTypeHomalgInternalMatrix",
         NewType( TheFamilyOfHomalgMatrices,
-                IsHomalgInternalMatrixRep ) );
+                IsHomalgInternalMatrixRep and IsNonAtomicComponentObjectRep ) );
 
 ####################################
 #
